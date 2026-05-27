@@ -242,7 +242,7 @@ useEffect(() => {
               <div className="timeline-item right">
                 <div className="timeline-content">
                   <span className="timeline-date">
-                    June 27 · 9:00 AM
+                    June 27 9:00 AM
                   </span>
 
                   <h3>Pradhanam</h3>
@@ -254,7 +254,7 @@ useEffect(() => {
               <div className="timeline-item left">
                 <div className="timeline-content">
                   <span className="timeline-date">
-                    June 27 · 10:00 AM
+                    June 27 10:00 AM
                   </span>
 
                   <h3>Wedding</h3>
