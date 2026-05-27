@@ -90,17 +90,20 @@ export default function FloatingCouple({
 
       {/* CONTENT */}
       <div className="floating-couple-content">
-        <h1 style={{padding: "0 15px", lineHeight: "3rem"}}>
-           {groomName} <span style={{fontSize: "0.8rem", fontFamily: "serif"}}>(PhD)</span><span> </span><span style={{fontSize: "2rem"}}>&</span> <span> </span> {brideName} <span style={{fontSize: "0.8rem", fontFamily: "serif"}}>(B. Tech)</span><span> </span>
-        </h1>
-        <div style={{padding: "0 15px", display: "flex", justifyContent: "center", gap: "15px", color: "#123456"}}>
-          <p style={{color: "#123456"}}>Elder<br/>S/O Sri Vishwanandham <br/> & Smt. Lova</p>
+        <p>Wedding of</p>
+        <div style={{padding: "0 25px", display: "flex", justifyContent: "center", gap: "15px", color: "#123456"}}>
+          <p style={{color: "#123456"}}>Elder Son of Sri Vishwanandham & Smt. Lova</p>
           <br/>
-          <p style={{color: "#123456"}} ><br/>And</p>
           <br/>
-          <p style={{color: "#123456"}}>Elder<br/>D/O Sri Kannayya<br/> & Smt. Jyothi</p>
+          <br/>
         </div>
-        <p>Wedding</p>
+        <h1 style={{padding: "0 15px", lineHeight: "3rem"}}>
+           {groomName} <span style={{fontSize: "0.8rem", fontFamily: "serif"}}></span><span> </span><span style={{fontSize: "2rem"}}>&</span> <span> </span> {brideName} <span style={{fontSize: "0.8rem", fontFamily: "serif"}}></span><span> </span>
+        </h1>
+        <div style={{padding: "0 25px", display: "flex", justifyContent: "center", gap: "15px", color: "#123456"}}>
+          <br/>
+          <p style={{color: "#123456"}}>Elder Daughter of Sri Kannayya & Smt. Jyothi</p>
+        </div>
       </div>
     </section>
   );
