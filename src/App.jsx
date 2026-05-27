@@ -147,7 +147,7 @@ useEffect(() => {
                   Remember, Save The Date
                 </div>
                 <div className="sub-heading">
-                  To celebrate with us
+                  To celebrate together
                 </div>
 
                 <div className="quote">
