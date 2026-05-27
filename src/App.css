@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body,
+#root{
+  background:#120d08;
+}
 
 html{
   overflow: hidden;
@@ -729,7 +734,7 @@ body {
 .hero-section{
   width:100%;
   height:100%;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 
   position:relative;
 
@@ -1431,6 +1436,7 @@ linear-gradient(
 
   font-size:2rem;
 
+  line-height:2rem;
 }
 
 /* TITLE */
@@ -1454,7 +1460,6 @@ linear-gradient(
 
   color:#6b5a4a;
 
-  line-height:1.9;
 
   font-size:1.05rem;
 }
@@ -1696,4 +1701,72 @@ linear-gradient(
 
 .music-btn:hover{
   transform:scale(1.05);
+}
+
+.loader-screen{
+  width:100%;
+  height:100vh;
+
+  position:fixed;
+  inset:0;
+
+  z-index:99999;
+
+  background:
+    linear-gradient(
+      180deg,
+      #120d08,
+      #24180f
+    );
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.loader-content{
+  text-align:center;
+}
+
+.loader-content h1{
+  margin-top:30px;
+
+  font-family:"Great Vibes", cursive;
+
+  font-size:4rem;
+
+  color:#f1d49a;
+}
+
+.loader-content p{
+  margin-top:10px;
+
+  letter-spacing:4px;
+
+  color:#fff;
+}
+
+/* RING */
+
+.loader-ring{
+  width:90px;
+  height:90px;
+
+  border-radius:50%;
+
+  border:
+    3px solid rgba(255,255,255,0.15);
+
+  border-top:
+    3px solid #d4af37;
+
+  animation:spin 1s linear infinite;
+
+  margin:auto;
+}
+
+@keyframes spin{
+  to{
+    transform:rotate(360deg);
+  }
 }
