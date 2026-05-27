@@ -144,7 +144,7 @@ useEffect(() => {
               <div className="titles">
                 <h2 className="heading">Invited</h2>
                 <div className="mini-text">
-                  Save The Date
+                  Remember, Save The Date
                 </div>
                 <div className="sub-heading">
                   To celebrate with us
@@ -233,12 +233,8 @@ useEffect(() => {
                     June 25 10 AM
                   </span>
 
-                  <h3>Haldi</h3>
+                  <h3>Pellikuthuru</h3>
 
-                  <p>
-                    Mehendi, haldi, and beautiful
-                    bridal moments begin.
-                  </p>
                 </div>
               </div>
 
@@ -251,10 +247,6 @@ useEffect(() => {
 
                   <h3>Pradhanam</h3>
 
-                  <p>
-                    The sacred wedding rituals
-                    and tying the knot.
-                  </p>
                 </div>
               </div>
 
@@ -267,10 +259,6 @@ useEffect(() => {
 
                   <h3>Wedding</h3>
 
-                  <p>
-                    Join us for an evening
-                    of celebration and dinner.
-                  </p>
                 </div>
               </div>
 

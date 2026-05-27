@@ -628,7 +628,7 @@ body {
 .snackbar {
   position: absolute;
 
-  bottom: 24px;
+  bottom: 10%;
   left: 50%;
 
   transform: translateX(-50%);
@@ -760,7 +760,7 @@ body {
 /* new additions */
 
 .story-section{
-  min-height:100vh;
+  min-height:80vh;
 
   display:flex;
   justify-content:center;
@@ -809,7 +809,7 @@ body {
 /* SECTION */
 
 .story-section{
-  min-height:100vh;
+  min-height:80vh;
 
   position:relative;
 
@@ -1086,7 +1086,7 @@ linear-gradient(
 /* SECTION */
 
 .timeline-section{
-  min-height:100vh;
+  min-height:80vh;
 
   padding:100px 20px;
 
@@ -1220,6 +1220,7 @@ linear-gradient(
   position:relative;
 
   overflow:hidden;
+  text-align: center;
 }
 
 /* DECORATION */
@@ -1249,12 +1250,14 @@ linear-gradient(
 
 .timeline-date{
   font-size:0.8rem;
-
+  width: 100%;
   letter-spacing:3px;
 
   text-transform:uppercase;
 
   color:#f6f8ef;
+  
+
 }
 
 /* TITLE */
@@ -1265,6 +1268,9 @@ linear-gradient(
   font-size:2.2rem;
 
   color:#c9ce9b;
+  
+  text-align: center;
+
 
   font-family:"Cormorant Garamond", serif;
 }
@@ -1276,6 +1282,9 @@ linear-gradient(
   line-height:1.8;
 
   color:#a3a3a300;
+  
+  text-align: center;
+
 }
 
 /* HOVER */
@@ -1331,7 +1340,7 @@ linear-gradient(
 /* RSVP SECTION */
 
 .rsvp-section{
-  min-height:100vh;
+  min-height:80vh;
 
   display:flex;
   justify-content:center;
