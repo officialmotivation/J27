@@ -334,7 +334,7 @@ useEffect(() => {
               <div className="rsvp-buttons">
 
                 <a
-                  href="tel:+918688235675"
+                  href="tel:+919676725523"
                   className="rsvp-btn"
                   id="call"
                 >
@@ -342,7 +342,7 @@ useEffect(() => {
                 </a>
 
                 <a
-                  href="https://wa.me/918688235675"
+                  href="https://wa.me/919676725523"
                   target="_blank"
                   className="rsvp-btn"
                   id="whatsapp"
