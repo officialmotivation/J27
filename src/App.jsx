@@ -233,7 +233,7 @@ useEffect(() => {
                     June 25 10 AM
                   </span>
 
-                  <h3>Pellikuthuru</h3>
+                  <h3>Pellikuthuru<br/>Pellikoduku</h3>
 
                 </div>
               </div>
