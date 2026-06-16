@@ -11,6 +11,8 @@ import pageBg from "./assets/bg.png";
 import card from "./assets/card.png";
 import rsvp from "./assets/rsvp.png";
 import time from "./assets/time.png";
+import tg from "./assets/tg.png";
+import tb from "./assets/tb.png";
 
 export default function WeddingInvitation() {
   const [loaded, setLoaded] = useState(false);
@@ -35,7 +37,9 @@ useEffect(() => {
     pageBg,
     card,
     rsvp,
-    time
+    time,
+    tg,
+    tb
   ];
 
   Promise.all(images.map(preloadImage)).then(() => {
@@ -326,28 +330,27 @@ useEffect(() => {
               </h2>
 
               <p className="rsvp-desc">
-                Kindly confirm your presence
+                <strong>Kindly confirm your presence
                 and bless us with your love
-                on our special day.
+                on our special day.</strong> 
               </p>
 
               <div className="rsvp-buttons">
 
                 <a
-                  href="tel:+919676725523"
+                  href="tel:+918688235675"
                   className="rsvp-btn"
                   id="call"
-                >
-                  Call Us
+                > 
+                  <img className="rsvp-img" src={tb}/>Team Bride
                 </a>
 
                 <a
-                  href="https://wa.me/919676725523"
-                  target="_blank"
+                  href="tel:+919676725523"
                   className="rsvp-btn"
                   id="whatsapp"
                 >
-                  WhatsApp
+                  <img className="rsvp-img" src={tg}/>Team Groom
                 </a>
 
               </div>
