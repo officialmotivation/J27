@@ -234,7 +234,7 @@ useEffect(() => {
               <div className="timeline-item left">
                 <div className="timeline-content">
                   <span className="timeline-date">
-                    June 25 10 AM
+                    June 25 10:00 AM
                   </span>
 
                   <h3>Pellikoduku &<br/>Pellikuthuru</h3>
@@ -338,7 +338,7 @@ useEffect(() => {
               <div className="rsvp-buttons">
 
                 <a
-                  href="tel:+918688235675"
+                  href="tel:+918247395223"
                   className="rsvp-btn"
                   id="call"
                 > 
